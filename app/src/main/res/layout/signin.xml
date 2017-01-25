@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.simplebutton.MainActivity"
+    android:background="@drawable/sinbg">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/e_mail2"
+        android:textSize="25sp"
+        android:layout_below="@+id/tv_sin"
+        android:layout_marginTop="20dp"
+        android:id="@+id/tv_em2"
+        android:gravity="center"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/border"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/password1"
+        android:textSize="25sp"
+        android:id="@+id/tv_pw1"
+        android:layout_below="@id/tv_em2"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_marginStart="40dp"
+        android:background="@drawable/border"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signin"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:layout_below="@id/tv_pw1"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="70dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in1"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:id="@+id/tv_sin"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

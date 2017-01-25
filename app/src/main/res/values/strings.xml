@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SimpleButton</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="next">Next</string>
+    <string name="result">result</string>
+    <string name="ambit_cyber_tech">Ambit Cyber Tech</string>
+    <string name="home">Home</string>
+    <string name="contacts">Contacts</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="contact_number">Contact Number:</string>
+    <string name="_040_235235">040-235235</string>
+    <string name="landline_040_235235">Landline:040-235235</string>
+    <string name="mobile_9533731266">Mobile:9533731266</string>
+    <string name="e_mail_ambitcyber_gmail_com">E-mail:ambitcyber@gmail.com</string>
+    <string name="sign_up1">Sign up</string>
+    <string name="e_mail">E-mail</string>
+    <string name="first_name">First name</string>
+    <string name="second_name">Second name</string>
+    <string name="e_mail1">E-mail:</string>
+    <string name="contact">Contact:</string>
+    <string name="password">Password:</string>
+    <string name="confirm_password">Confirm password:</string>
+    <string name="submit">Submit</string>
+    <string name="sign_in1">Sign in</string>
+    <string name="e_mail2">E-mail:</string>
+    <string name="password1">Password:</string>
+    <string name="signin">Signin</string>
+    <string name="last_name">Last name:</string>
+</resources>
